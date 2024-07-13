@@ -1,0 +1,176 @@
+.logo{
+    height: 100%;
+    background-color: #E96B45;
+    width: 40%;
+    text-align: center;
+    padding-top: 15%;
+}
+form{
+    margin-right: 50px;
+}
+body{
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+.flex-container{
+   position: absolute;
+   right: 20%;
+   top: 20%;
+   display: flex;
+   text-align: center;
+}
+
+.head{
+    padding-left: 0px;
+    width: 400px;
+    height: 200px;
+    margin-right: -350px;
+    font-size: xx-large;
+    font-style: initial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info{
+    width: 250px;
+    position:absolute;
+    margin-top: 75px;
+    margin-left: 0px;
+    font-weight: lighter;
+    color: grey;
+}
+
+.inputWrite{
+        font-size: x-small;
+        letter-spacing: 1px;
+        position:absolute; 
+       font-weight: initial;
+        color: gray;
+        padding-left: 10px;
+}
+
+#firstInfo{
+    padding-top: 30px;
+    margin-top: 120px;
+}
+
+
+input{
+    border-radius: 20px;
+    border-style: none;
+    background-color:rgb(239, 239, 239);
+    padding: 10px 100px 10px 10px;
+    
+}
+
+.inputDiv{
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.button{
+    background-color: #F87711;
+    color: white;
+    text-align: center;
+    width: 200px;
+    margin-left: 25px;
+   text-align: center;
+   padding-left: 75px;
+}
+
+
+@media only screen and (max-width: 800px){
+
+    .logo{  
+        width: 100%; 
+        background-color: #E96B45;
+        align-items: center;
+        height: 10%;
+        text-align: center;
+       
+    }
+
+    .logoTxt{
+      text-align: center;
+      align-items: center;
+      height: 100px;   
+      padding-bottom: 20px;
+    }
+
+
+    .flex-container{
+        position: absolute;
+       margin-top: 10%;
+        display: flex;
+        text-align: center;
+     }
+
+     body{
+        height: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .head{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 376px){
+
+    .logo{  
+        width: 100%; 
+        background-color: #E96B45;
+        align-items: center;
+        height: 20%;
+        text-align: center;
+       
+    }
+
+    .logoTxt{
+      text-align: center;
+      align-items: center;
+      
+    }
+
+    form{
+        font-size: small;
+        margin-left: 0px;
+    }
+
+    .flex-container{
+        position: absolute;
+       margin-top: 10%;
+        display: flex;
+        text-align: center;
+     }
+     input,.button{
+        margin-left: 50px;
+     }
+
+     body{
+        height: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .head{
+        margin-top: 25px;
+       text-align: center;
+       font-size: x-large;
+    margin-left: 100px;
+    max-width: 300px;
+    }
+
+    .inputWrite{
+        margin-left: 75px;
+    }
+    
+    .info{
+        margin-left: 50px;
+    }
+}
+
